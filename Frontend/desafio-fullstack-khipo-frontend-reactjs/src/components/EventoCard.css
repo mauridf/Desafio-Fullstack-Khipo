@@ -1,0 +1,21 @@
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.event-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.event-card h2 {
+    font-size: 1.5em;
+}
+
+.event-card p {
+    font-size: 1em;
+    color: #666;
+}
