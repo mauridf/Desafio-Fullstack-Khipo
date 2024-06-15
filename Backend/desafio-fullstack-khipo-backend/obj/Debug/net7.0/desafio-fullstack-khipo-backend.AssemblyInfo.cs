@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("desafio-fullstack-khipo-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3001775ebfa25a511daecf7da7131cc85f3c551")]
 [assembly: System.Reflection.AssemblyProductAttribute("desafio-fullstack-khipo-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("desafio-fullstack-khipo-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

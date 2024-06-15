@@ -41,3 +41,4 @@ C:\Projetos\.NET\Desafio-Fullstack-Khipo\Backend\desafio-fullstack-khipo-backend
 C:\Projetos\.NET\Desafio-Fullstack-Khipo\Backend\desafio-fullstack-khipo-backend\obj\Debug\net7.0\desafio-fullstack-khipo-backend.pdb
 C:\Projetos\.NET\Desafio-Fullstack-Khipo\Backend\desafio-fullstack-khipo-backend\obj\Debug\net7.0\desafio-fullstack-khipo-backend.genruntimeconfig.cache
 C:\Projetos\.NET\Desafio-Fullstack-Khipo\Backend\desafio-fullstack-khipo-backend\obj\Debug\net7.0\ref\desafio-fullstack-khipo-backend.dll
+C:\Projetos\.NET\Desafio-Fullstack-Khipo\Backend\desafio-fullstack-khipo-backend\obj\Debug\net7.0\desafio-fullstack-khipo-backend.sourcelink.json

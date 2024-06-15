@@ -32,8 +32,8 @@ namespace desafio_fullstack_khipo_backend.Models
         public string Telefone { get; set; }
 
         // Propriedades de navegação
-        public List<Entrada> Entradas { get; set; }
-        public List<Catraca> Catracas { get; set; }
+        public List<Entrada>? Entradas { get; set; }
+        public List<Catraca>? Catracas { get; set; }
     }
 
     public enum TipoLocal
