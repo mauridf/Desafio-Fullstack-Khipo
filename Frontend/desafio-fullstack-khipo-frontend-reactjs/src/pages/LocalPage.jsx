@@ -1,12 +1,12 @@
 import React from 'react';
-import LocalList from '../components/LocalList';
+import LocalCard from '../components/LocalCard';
 import { Container, Typography } from '@mui/material';
 
 const LocalPage = () => {
   return (
     <Container>
       <Typography variant="h2">Local</Typography>
-      <LocalList />
+      <LocalCard />
     </Container>
   );
 };

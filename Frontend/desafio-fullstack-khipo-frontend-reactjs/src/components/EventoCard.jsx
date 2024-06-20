@@ -1,14 +1,37 @@
 import React from 'react';
-import './EventoCard.css'; // Crie este arquivo para estilizar os cartões de eventos
+import './css/Card.css';
 
-const EventoCard = ({ evento }) => {
+// Supondo que você tenha os mapeamentos para o enum e os locais
+const TipoEvento = {
+  0: 'Show',
+  1: 'Jogo',
+  2: 'Outro'
+};
+
+const EventoCard = ({ eventos, locaisMap }) => {
   return (
-    <div className="event-card">
-      <img src={evento.imageUrl} alt={evento.nome} />
-      <h2>{evento.nome}</h2>
-      <p>{evento.data}</p>
-      <p>{evento.localid}</p>
-      <button>Mais Informações</button>
+    <div className="card">
+      <h2>Últimos Eventos Adicionados <a href="/lista-eventos">Ver Todos</a></h2>
+      <div className="card-list">
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Tipo</th>
+              <th>Local</th>
+            </tr>
+          </thead>
+          <tbody>
+            {eventos.map((evento) => (
+              <tr key={evento.id}>
+                <td>{evento.nome}</td>
+                <td>{TipoEvento[evento.tipo]}</td>
+                <td>{locaisMap[evento.localId]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

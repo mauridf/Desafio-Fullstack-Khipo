@@ -1,12 +1,12 @@
 import React from 'react';
-import EventoList from '../components/EventoList';
+import EventoCard from '../components/EventoCard';
 import { Container, Typography } from '@mui/material';
 
 const EventoPage = () => {
   return (
     <Container>
       <Typography variant="h2">Evento</Typography>
-      <EventoList />
+      <EventoCard />
     </Container>
   );
 };

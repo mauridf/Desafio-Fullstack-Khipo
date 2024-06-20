@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Crie este arquivo para estilizar o rodapé
+import './css/Footer.css';
 
 const Footer = () => {
   return (
